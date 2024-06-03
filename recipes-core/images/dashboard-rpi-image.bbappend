@@ -17,10 +17,8 @@ META_OE = " \
 FLUTTER_APP = " \
 	dashboard \
 	dashboard-dev \
-	touchscreen-init \
-	window-init \
 	flutter-pi \
-	flutter-engine
+	flutter-engine \
 "
 	
 

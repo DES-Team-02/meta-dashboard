@@ -41,3 +41,6 @@ echo "Setup completed!"
 
 echo "local.conf updated!"
 echo "Setup completed!"
+
+
+#LD_LIBRARY_PATH=/usr/lib flutter-pi --release -r 270 --videomode 400*1280 -d "100,400" .

@@ -1,0 +1,13 @@
+[Unit]
+Description=Flutter Pi Service
+After=network.target
+
+[Service]
+Environment=LD_LIBRARY_PATH=/usr/lib
+ExecStart=flutter-pi --release -r 270 --videomode 400*1280 -d "100,400" .
+WorkingDirectory=/flutter/flutter_dashboard/3.19.2/release/
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target

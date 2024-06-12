@@ -13,6 +13,7 @@ FLUTTER_APP = " \
 	dashboard \
 	dashboardffi \
 	flutter-pi \
+	flutter-pi-service \
 	libegl-mesa-dev \
 	libgles3-mesa-dev \
 "
